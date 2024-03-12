@@ -1,0 +1,11 @@
+# The documentation for all configuration options is found at:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    labels:
+      - "dependencies"
+    schedule:
+      interval: daily
